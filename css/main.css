@@ -849,8 +849,9 @@ body {
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
 			width: 40rem;
-			height: 40rem;
 			overflow: auto;
+			text-transform: uppercase;
+			text-align: justify;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
@@ -864,6 +865,7 @@ body {
 				transform: translateY(0);
 				opacity: 1;
 			}
+
 
 			#main article .close {
 				display: block;
@@ -930,9 +932,16 @@ body {
 		}
 
         #intro{
-            text-align: justify;
-            text-transform: uppercase;
+			height: 38rem;
         }
+		
+		#contact{
+			height: fit-content;
+		}
+
+		#work{
+			height: 38rem;
+		}
 
 /* Footer */
 
